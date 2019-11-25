@@ -6,15 +6,18 @@ console.log(input);
     })
 })
 
-document.getElementById("saveBtn").addEventListener("click", function(){
-    var input = {
-        userMeeting: "9am".value()
-    };
+localStorage.setItem(saveBtn, 9am);
 
-    localStorage.setItem("userMeeting", value);
-console.log(value);
-});
 
+
+
+
+
+
+
+
+// var input = ("#saveBtn").text(moment)
+//     console.log(moment);
 
 
 // use .past .present .future for moment.js
