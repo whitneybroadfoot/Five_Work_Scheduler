@@ -18,8 +18,8 @@
         <header class="jumbotron">
                 <h1 class="display-3">Work Day Scheduler</h1>
                 <p class="lead">A simple calendar app for scheduling your work day</p>
+<!--use "currentDay ID for the moment coding -->
                 <p id="currentDay" class="lead"></p>
-                        $("#currentDay").text(moment.js)
         </header>
         <div class="container">
 
@@ -73,9 +73,12 @@
                 </tbody>
         </table>
 </div>
-
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
         <script type="text/javascript" src="script.js"></script>
-</body>
+                <script id = "date">
+                        var = moment();
+                        $("#currentDay").append(m.format('LL'));
+                </script>
+        </body>
 </html>
