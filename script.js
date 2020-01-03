@@ -1,8 +1,3 @@
-script id = "date">
-    var thisDay = moment();
-            $("#currentDay").append(thisDay.format('LL'));
-
-
 $(document).ready(function(){
     $(".saveBtn").click(function(){
         var currentButton = $(this).val()
