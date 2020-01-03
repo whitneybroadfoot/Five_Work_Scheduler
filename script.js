@@ -9,7 +9,7 @@ console.log(input);
 
 
 
-// localStorage.setItem(saveBtn, "9am");
+// localStorage.setItem("saveBtn", "9am");
 
 
 // var input = ("#saveBtn").text(moment)
@@ -17,3 +17,8 @@ console.log(input);
 
 // use .past .present .future for moment.js
 
+// //  
+// $(document).ready(function() {
+//     const date = moment();
+//     console.log(moment());
+//     $("#currentDay").html(moment().format("LL"));
